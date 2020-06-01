@@ -34,6 +34,7 @@ This project uses the following technologies:
 This project uses the following CI/CD Pipeline:
 
 1. [**Travis CI**](https://travis-ci.org/nicholasadamou/wifi-card) - Travis is used to test whether or not this project builds successfully.
+2. [**CircleCI**](https://circleci.com/) - Used for the same reason as Travis CI.
 
 ## License
 
