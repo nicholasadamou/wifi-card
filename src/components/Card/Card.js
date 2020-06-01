@@ -105,7 +105,7 @@ class Card extends React.Component {
 							<label>Network name:</label>
 							<input id="ssid" type="text" maxlength="32" placeholder="Enter your WiFi Network Name" value={this.state.ssid} onChange={this.handleSSIDChange}/>
 							<label>Password:</label>
-							<input id="password" type="text" maxlength="64" placeholder="password" value={this.state.password} onChange={this.handlePasswordChange}/>
+							<input id="password" type="text" maxlength="64" placeholder="Password" value={this.state.password} onChange={this.handlePasswordChange}/>
 						</div>
 					</Details>
 
