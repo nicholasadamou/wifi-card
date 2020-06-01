@@ -1,4 +1,4 @@
-# WiFi Card [![Build Status](https://travis-ci.org/nicholasadamou/wifi-card.svg?branch=master)](https://travis-ci.org/nicholasadamou/wifi-card)
+# WiFi Card [![Build Status](https://travis-ci.org/nicholasadamou/wifi-card.svg?branch=master)](https://travis-ci.org/nicholasadamou/wifi-card) [![CircleCI](https://circleci.com/gh/nicholasadamou/wifi-card.svg?style=svg)](https://circleci.com/gh/nicholasadamou/wifi-card)
 
 ![preview](preview.png)
 
@@ -13,13 +13,16 @@ Print a neat little card with your WiFi info and stick it on the fridge.
 
 ### Steps
 
-Starting the front-end:
+Run the latest Docker image on <http://localhost:8080>
 
 ```bash
-git clone https://github.com/nicholasadamou/wifi-card
-cd wifi-card
-npx yarn install
-npx yarn start
+docker run --rm -p 8080:80 nicholasadamou/wifi-card:latest
+```
+
+Or run the live-reload server on <http://localhost:3000>
+
+```bash
+make dev
 ```
 
 ## 📚 The Tech. Stack
