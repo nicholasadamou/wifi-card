@@ -1,0 +1,21 @@
+{
+  "name": "React Starter Kit",
+  "short_name": "react-starter-kit",
+  "icons": [
+    {
+      "src": "assets/favicons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FAFAFA",
+  "background_color": "#FAFAFA",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
