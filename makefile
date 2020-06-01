@@ -13,7 +13,3 @@ build:
 .PHONY: dev
 dev:
 	yarn start
-
-.PHONY: run
-run: build
-	docker run --rm -p 8080:80 $(TAG_LATEST)
