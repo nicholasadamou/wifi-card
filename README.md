@@ -19,7 +19,7 @@ Run the live-reload server on <http://localhost:3000>
 make dev
 ```
 
-## Docker configuration
+## Docker
 
 To dockerize this application I followed the following guide [dockerizing-a-react-app](https://mherman.org/blog/dockerizing-a-react-app/).
 
