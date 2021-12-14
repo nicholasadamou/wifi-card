@@ -1,4 +1,4 @@
-# WiFi Card [![CircleCI](https://circleci.com/gh/nicholasadamou/wifi-card.svg?style=svg)](https://circleci.com/gh/nicholasadamou/wifi-card)
+# WiFi Card
 
 ![preview](preview.png)
 
@@ -48,12 +48,6 @@ This project uses the following technologies:
 - [**React.js**](https://reactjs.org/) - For building the interface along with:
   - [**Styled-Components**](https://www.styled-components.com/) - for styling.
   - [**qrcode.react**](https://github.com/zpao/qrcode.react)
-
-## ⛓️ CI/CD Pipeline
-
-This project uses the following CI/CD Pipeline:
-
-1. [**CircleCI**](https://circleci.com/) - Used for the same reason as Travis CI.
 
 ## License
 

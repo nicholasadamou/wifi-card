@@ -12,10 +12,6 @@ build-dev:
 build-prod:
 	docker build -f Dockerfile.prod -t $(REPO):prod .
 
-.PHONY: build-prod-amd64
-build-prod-amd64:
-	docker build -f Dockerfile.amd64 -t $(REPO):prod .
-
 .PHONY: start-dev-container
 start-dev-container:
 	docker-compose -f docker-compose.yml up --remove-orphans
