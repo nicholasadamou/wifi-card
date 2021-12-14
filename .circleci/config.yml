@@ -2,11 +2,11 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: arm64v8/node:lts-alpine
+      - image: circleci/node
     steps:
       - checkout
       - setup_remote_docker
-      - run: make build-prod
+      - run: make build-prod-amd64
 
 workflows:
   version: 2

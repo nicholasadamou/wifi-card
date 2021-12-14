@@ -1,0 +1,33 @@
+# build environment
+FROM node:lts-alpine as build
+
+# install python3 for use by node packages
+RUN apk add python3
+
+# set working directory
+WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# install app dependencies
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn install --silent
+RUN yarn global add react-scripts --silent
+
+# add app
+COPY . ./
+
+# build the application
+RUN yarn build
+
+# production environment
+FROM nginx:stable-alpine
+
+# place built application in the production environment
+COPY --from=build /app/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
