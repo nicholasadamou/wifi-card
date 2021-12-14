@@ -7,7 +7,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run: yarn
-      - run: yarn build
+      - run: make build
 
 workflows:
   version: 2
