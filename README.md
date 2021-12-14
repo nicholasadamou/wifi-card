@@ -27,14 +27,12 @@ This project uses the following technologies:
 
 - [**React.js**](https://reactjs.org/) - For building the interface along with:
   - [**Styled-Components**](https://www.styled-components.com/) - for styling.
-  - [**instant.page**](https://instant.page/) - Make your site's pages instant in 1 minute and improve your conversion rate by 1%.
 
 ## ⛓️ CI/CD Pipeline
 
 This project uses the following CI/CD Pipeline:
 
-1. [**Travis CI**](https://travis-ci.org/nicholasadamou/wifi-card) - Travis is used to test whether or not this project builds successfully.
-2. [**CircleCI**](https://circleci.com/) - Used for the same reason as Travis CI.
+1. [**CircleCI**](https://circleci.com/) - Used for the same reason as Travis CI.
 
 ## License
 

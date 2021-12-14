@@ -7,7 +7,6 @@ all: dev
 
 .PHONY: build
 build:
-	yarn build
 	docker build -t $(TAG_LATEST) .
 
 .PHONY: dev

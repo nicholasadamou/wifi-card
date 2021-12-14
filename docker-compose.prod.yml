@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  wifi-card-prod:
+    container_name: wifi-card-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "1337:80"
