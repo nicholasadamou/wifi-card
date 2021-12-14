@@ -6,8 +6,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      - run: yarn
-      - run: make build
+      - run: make build-prod
 
 workflows:
   version: 2
