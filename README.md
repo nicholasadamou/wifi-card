@@ -23,7 +23,7 @@ make dev
 
 To dockerize this application I followed the following guide [dockerizing-a-react-app](https://mherman.org/blog/dockerizing-a-react-app/).
 
-To launch the docker container for *development* use:
+To build and launch the docker container for *development* use:
 
 ```bash
 make build-dev start-dev-container
@@ -31,7 +31,7 @@ make build-dev start-dev-container
 
 Then you can access the application at <http://localhost:3001>.
 
-To launch the docker container for *production* use:
+To build and launch the docker container for *production* use:
 
 ```bash
 make build-prod start-prod-container
