@@ -1,4 +1,4 @@
-# WiFi Card [![Build Status](https://travis-ci.org/nicholasadamou/wifi-card.svg?branch=master)](https://travis-ci.org/nicholasadamou/wifi-card) [![CircleCI](https://circleci.com/gh/nicholasadamou/wifi-card.svg?style=svg)](https://circleci.com/gh/nicholasadamou/wifi-card)
+# WiFi Card [![CircleCI](https://circleci.com/gh/nicholasadamou/wifi-card.svg?style=svg)](https://circleci.com/gh/nicholasadamou/wifi-card)
 
 ![preview](preview.png)
 
