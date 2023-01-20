@@ -8,12 +8,22 @@ const Container = styled.div`
 	fieldset {
 		margin-top: 2em;
 		padding: 1em;
+
+		@media screen and (max-width: 430px) {
+			margin-top: 1em;
+		}
 	}
 `;
 
 const Details = styled.div`
 	display: flex;
 	padding: 1em;
+
+	@media screen and (max-width: 430px) {
+		flex-direction: column;
+
+		padding-left: 0;
+	}
 
 	div {
 		display: grid;
@@ -23,6 +33,10 @@ const Details = styled.div`
 		margin-left: 10px;
 
 		width: 100%;
+
+		@media screen and (max-width: 430px) {
+			margin: 10px 0 0 0;
+		}
 
 		input {
 			margin-top: 5px;
@@ -35,6 +49,10 @@ const Details = styled.div`
 
 			background-color: var(--white);
 			border: solid 1px var(--light-grey);
+
+			@media screen and (max-width: 430px) {
+				font-size: 1em;
+			}
 		}
 	}
 `;
@@ -49,6 +67,10 @@ const PrintButton = styled.div`
 		color: var(--white);
 
 		background-color: var(--blue);
+
+		@media screen and (max-width: 430px) {
+			width: 100%;
+		}
 	}
 `;
 
